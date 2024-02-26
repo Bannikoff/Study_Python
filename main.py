@@ -1,16 +1,16 @@
-# This is a sample Python script.
+# Це приклад скрипту на Python.
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# Натисніть ⌃R, щоб виконати його або замінити своїм кодом.
+# Подвійне натискання клавіші ⇧ для пошуку класів, файлів, вікон інструментів, дій та налаштувань.
 
 
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    # Для налагодження скрипта використовуйте точку переривання в рядку коду нижче.
+        print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
+# Натисніть зелену кнопку в жолобі, щоб запустити скрипт.
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Див. довідку PyCharm на https://www.jetbrains.com/help/pycharm/
