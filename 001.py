@@ -1,3 +1,14 @@
-print("Hello world!")
-name = input("What is your name? ")
-print('Your name is ', name)
+# Это тренировачные файлы
+
+import turtle
+
+turtle.shape('turtle')
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(50)
+turtle.right(90)
+turtle.forward(50)
+turtle.right(90)
+turtle.forward(50)
