@@ -5,7 +5,7 @@
 # and zodiac sign
 
 # Hardcode the current date
-current_day = 27
+current_day = 28
 current_month = 2
 current_year = 2024
 
