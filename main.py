@@ -15,3 +15,6 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # Див. довідку PyCharm на https://www.jetbrains.com/help/pycharm/
+num = int (input('Number: '))
+print ('Вгадав') if num == 55 else print ('Не вгадав')
+
