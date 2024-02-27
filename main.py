@@ -1,5 +1,4 @@
 # Це приклад скрипту на Python для PyCharm.
-# VS Code
 
 # Натисніть ⌃R, щоб виконати його або замінити своїм кодом.
 # Подвійне натискання клавіші ⇧ для пошуку класів, файлів, вікон інструментів, дій та налаштувань.
@@ -15,6 +14,6 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # Див. довідку PyCharm на https://www.jetbrains.com/help/pycharm/
-num = int (input('Number: '))
+num = int(input('Number: '))
 print ('Вгадав') if num == 55 else print ('Не вгадав')
 
