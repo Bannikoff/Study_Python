@@ -1,21 +1,21 @@
-# Это тестовое на вакансию автора IT-статей
-# По условиям тестового нельзя использовать импорт, но можно хардкодить текущую дату
-# Запрашиваем дату рождения у пользователя и
-# сообщаем сколько дней осталось
-# и знак зодиака
+# This is a test for an IT article writer vacancy
+# By the terms of the test you can't use import, but you can hardcode the current date
+# Request the user's date of birth and
+# tell them how many days are left
+# and zodiac sign
 
-# Хардкодим текущую дату
-current_day = 26
+# Hardcode the current date
+current_day = 27
 current_month = 2
 current_year = 2024
 
-# Запрашиваем у пользователя дату рождения
+# Request the user's date of birth
 birthdate = input("Введите дату рождения в формате ДД.ММ.ГГГГ: ")
 
-# Разделяем дату рождения на день, месяц и год
+# Divide the date of birth into day, month and year
 day, month, year = map(int, birthdate.split('.'))
 
-# Создаем список с количеством дней в каждом месяце, учитывая высокосные года
+# Create a list with the number of days in each month, taking into account high-summer years
 days_in_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 if current_year % 4 == 0 and (current_year % 100 != 0 or current_year % 400 == 0):
     days_in_month[1] = 29
