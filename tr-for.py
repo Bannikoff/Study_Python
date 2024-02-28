@@ -1,9 +1,6 @@
 word = 'Magnification'
-symbol = 'i'
-
-for i in word:
-  if i == symbol:
-    print ('Done')
-    break
-else:
-  print ('No')
+string = ''
+for i in range (len(word)-1, -1, -1):
+  string += word[i]
+  # print (word[i])
+print (string)
