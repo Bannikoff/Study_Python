@@ -17,5 +17,5 @@
 # num = int(input('Number: '))
 # print ('Вгадав') if num == 55 else print ('Не вгадав')
 
-c=['S', 'F', 'E', 'Y']
-print (c[0:-2])
+c = ['S', 'F', 'E', 'Y']
+print(c[0:-2])
