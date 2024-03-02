@@ -19,4 +19,4 @@ def year_days(year):
     if year_check % 4 == 0 and (year_check % 100 != 0 or year_check % 400 == 0):
         days += 1
 
-    return '%d has %d days' % (year, days)
+    return '{} has {} days'.format(year, days)
