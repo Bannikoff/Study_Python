@@ -15,10 +15,8 @@
 
 def year_days(year):
     year_check = abs(year)
+    days = 365
     if year_check % 4 == 0 and (year_check % 100 != 0 or year_check % 400 == 0):
-        answer = str(year) + ' has 366 days'
+        days += 1
 
-    else:
-        answer = str(year) + ' has 365 days'
-
-    return answer
+    return '%d has %d days' % (year, days)
