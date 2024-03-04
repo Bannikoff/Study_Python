@@ -17,5 +17,7 @@
 # num = int(input('Number: '))
 # print ('Вгадав') if num == 55 else print ('Не вгадав')
 
-c = ['S', 'F', 'E', 'Y']
-print(c[0:-2])
+prices = [15, 19, 24, 8, 5]
+for i in range(len(prices)):
+    prices[i] += 5
+print(prices)
