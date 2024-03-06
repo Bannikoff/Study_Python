@@ -17,6 +17,7 @@
 # num = int(input('Number: '))
 # print ('Вгадав') if num == 55 else print ('Не вгадав')
 
-prices = [33, 49, 55, 14]
-min_price = min(prices)
-print(min_price)
+ages = [25, 36, 33, 19, 56]
+
+sorted_ages = sorted(ages)
+print(sorted_ages)
