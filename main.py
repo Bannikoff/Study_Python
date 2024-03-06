@@ -17,7 +17,8 @@
 # num = int(input('Number: '))
 # print ('Вгадав') if num == 55 else print ('Не вгадав')
 
-ages = [25, 36, 33, 19, 56]
+temperatures = [22, 25, 19, 21, 24, 28, 23]
 
-sorted_ages = sorted(ages)
-print(sorted_ages)
+print(max(temperatures))
+
+print(min(temperatures))
