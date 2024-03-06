@@ -18,5 +18,5 @@
 # print ('Вгадав') if num == 55 else print ('Не вгадав')
 
 prices = [33, 49, 55, 14]
-max_price = max(prices)
-print(max_price)
+min_price = min(prices)
+print(min_price)
