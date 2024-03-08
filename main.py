@@ -17,8 +17,11 @@
 # num = int(input('Number: '))
 # print ('Вгадав') if num == 55 else print ('Не вгадав')
 
-temperatures = [22, 25, 19, 21, 24, 28, 23]
-
-print(max(temperatures))
-
-print(min(temperatures))
+def sum_array(arr):
+    if arr is None or len(arr) <= 1:
+        return 0
+    else:
+        arr.sort()  # Сортуємо список
+        arr.pop(-1)  # Видаляємо найбільший елемент
+        arr.pop(0)  # Видаляємо найменший елемент
+        return sum(arr)
