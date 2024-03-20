@@ -4,13 +4,14 @@
 # 'zero', якщо n дорівнює нулю
 
 # Define a function
-def is_positive(___):
-  if ___:
-    return('positive')
-  elif n < 0:
-    return('negative')
-  ___:
-    return('___')
+def is_positive(n):
+    if n > 0:
+        return 'positive'
+    elif n < 0:
+        return 'negative'
+    else:
+        return 'zero'
+
 
 # Test your function on -5, 0 and 5
 print('Number -5 is', is_positive(-5))
